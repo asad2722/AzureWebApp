@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
+    <title>Full Screen Iframe</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    This is testing
+    <iframe src="https://chatgpt.com/share/681dcfbc-6d68-800f-92b5-d485e551a60a" allowfullscreen></iframe>
 </body>
 </html>
